@@ -796,6 +796,7 @@ header .container nav .icon i {
 .testskills {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    min-height: 727px;
 }
 
 .testskills .container {
@@ -999,6 +1000,11 @@ header .container nav .icon i {
 .pricing {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    min-height: 1383px;
+}
+
+.pricing .cont{
+    display: none;
 }
 
 .pricing .container {
@@ -1086,7 +1092,7 @@ header .container nav .icon i {
     color: #fff;
 }
 
-.pricing .contact {
+.pricing .contac {
     text-align: center;
     font-size: 25px;
 }
@@ -1185,6 +1191,11 @@ header .container nav .icon i {
 .contact {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    min-height: 917px;
+}
+
+.contact .cont{
+    display: none;
 }
 
 .contact .container {

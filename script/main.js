@@ -47,3 +47,31 @@ $(window).scroll(function () {
         $('.about .cont').css('display', 'none')
     }
 })
+
+$(window).scroll(function () {
+    let testOffset = $('.testskills').offset().top
+    if ($(window).scrollTop() > testOffset - 500) {
+        $('.testskills .container').slideDown(1000)
+        $('.testskills .container').css('display', 'flex')
+    } else {
+        $('.testskills .container').css('display', 'none')
+    }
+})
+
+$(window).scroll(function () {
+    let pricingOffset = $('.pricing').offset().top
+    if ($(window).scrollTop() > pricingOffset - 500) {
+        $('.pricing .cont').slideDown(1000)
+    } else {
+        $('.pricing .cont').css('display', 'none')
+    }
+})
+
+$(window).scroll(function () {
+    let contactOffset = $('.contact').offset().top
+    if ($(window).scrollTop() > contactOffset - 500) {
+        $('.contact .cont').slideDown(1000)
+    } else {
+        $('.contact .cont').css('display', 'none')
+    }
+})
