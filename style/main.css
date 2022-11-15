@@ -409,6 +409,11 @@ header .container nav .icon i {
 .services {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    min-height: 865px;
+}
+
+.services .container{
+    display: none;
 }
 
 @media (min-width: 768px) {
@@ -534,6 +539,11 @@ header .container nav .icon i {
 .portfolio {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    min-height: 1136px;
+}
+
+.portfolio .cont{
+    display: none;
 }
 
 .portfolio .links {
@@ -682,6 +692,11 @@ header .container nav .icon i {
     padding-top: var(--section-padding);
     text-align: center;
     overflow: hidden;
+    min-height: 669px;
+}
+
+.about .cont{
+    display: none;
 }
 
 .about img {

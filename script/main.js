@@ -19,3 +19,31 @@ $(document).ready(function(){
         })
     })
 })
+
+$(window).scroll(function(){
+    let servicesOffset = $('.services').offset().top
+    if ($(window).scrollTop() > servicesOffset - 500){
+        $('.services .container').slideDown(1000)
+    }else{
+        $('.services .container').css('display', 'none')
+    }
+})
+
+
+$(window).scroll(function () {
+    let portfolioOffset = $('.portfolio').offset().top
+    if ($(window).scrollTop() > portfolioOffset - 500) {
+        $('.portfolio .cont').slideDown(1000)
+    } else {
+        $('.portfolio .cont').css('display', 'none')
+    }
+})
+
+$(window).scroll(function () {
+    let aboutOffset = $('.about').offset().top
+    if ($(window).scrollTop() > aboutOffset - 500) {
+        $('.about .cont').slideDown(1000)
+    } else {
+        $('.about .cont').css('display', 'none')
+    }
+})
